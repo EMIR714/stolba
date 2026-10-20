@@ -1,0 +1,23 @@
+{
+  "name": "qr-asset-passport",
+  "version": "1.0.0",
+  "private": true,
+  "description": "QR passport registry for electrical poles and substations",
+  "scripts": {
+    "start": "vite --host 0.0.0.0",
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "start:api": "node server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "vite": "^6.4.4"
+  }
+}
